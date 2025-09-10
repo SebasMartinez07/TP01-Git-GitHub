@@ -7,6 +7,7 @@ public void setup() {
   pelota = new Pelota();
   tiempoInicio = millis();
   juegoActivo = true;
+  println("¡Comienza el juego!");
 }
 
 public void draw() {
@@ -22,6 +23,7 @@ public void draw() {
     // si llega a 60 segundos, termina el juego
     if (tiempoActual >= 60) {
       juegoActivo = false;
+      println("¡Juego finalizado!");
     }
   } else {
     // pantalla de fin del juego
