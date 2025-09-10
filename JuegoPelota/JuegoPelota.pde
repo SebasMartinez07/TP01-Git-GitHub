@@ -1,4 +1,4 @@
-private Pelota pelot;
+private Pelota pelota;
 private int tiempoInicio;
 private boolean juegoActivo;
 
