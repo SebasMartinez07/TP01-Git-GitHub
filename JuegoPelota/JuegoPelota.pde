@@ -13,15 +13,19 @@ public void draw(){
 public void keyPressed() {
   if (key == 'w' || key == 'W'){
   pelota.setVelocidad(0, -3);
+  pelota.setColor(color(0, 0, 255));
   }
   if (key == 's' || key == 'S'){
   pelota.setVelocidad(0, 3);
+  pelota.setColor(color(255, 0, 0));
   }
   if (key == 'a' || key == 'A'){
   pelota.setVelocidad(-3, 0);
+  pelota.setColor(color(0, 255, 0));
   }
   if (key == 'd' || key == 'D'){
   pelota.setVelocidad(3, 0);
+  pelota.setColor(color(255,255,0));
   }
 }
 

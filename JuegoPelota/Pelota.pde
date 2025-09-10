@@ -19,4 +19,7 @@ class Pelota{
   public void setVelocidad(float x, float y){
     velocidad.set(x,y);
   }
+  public void setColor(color nuevoColor){
+    this.colorPelota = nuevoColor;
+  }
 }
