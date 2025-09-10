@@ -7,7 +7,6 @@ public void setup() {
   pelota = new Pelota();
   tiempoInicio = millis();
   juegoActivo = true;
-  println("¡Comienza el juego!");
 }
 
 public void draw() {
@@ -29,7 +28,6 @@ public void draw() {
     fill(255, 0, 0);
     textSize(32);
     text("¡Tiempo terminado!", width/2 - 120, height/2);
-    println("¡Juego finalizado!");
   }
 }
 
